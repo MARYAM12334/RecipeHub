@@ -5,7 +5,6 @@
 - [Fonctionnalités](#fonctionnalités)
 - [Prérequis](#prérequis)
 - [Installation](#installation)
-- [Structure du projet](#structure-du-projet)
 
 ## Vue d'ensemble
 Recipe Search System est une application web moderne permettant aux utilisateurs de rechercher des recettes de cuisine à partir de fichiers PDF indexés.
@@ -77,24 +76,4 @@ npm install
 3. Lancez l'application en mode développement :
 ```bash
 npm start
-```
-
-## Structure du projet
-```
-RecipeSearchSystem/
-├── backend/
-│   ├── venv/                   # Environnement virtuel Python
-│   ├── file_indexing_server.py # Serveur Flask
-│   └── requirements.txt        # Dépendances Python
-├── frontend/
-│   ├── public/                 # Fichiers publics
-│   ├── src/                    # Code source React
-│   │   ├── components/         # Composants React
-│   │   ├── pages/             # Pages de l'application
-│   │   ├── App.js             # Composant principal
-│   │   └── index.js           # Point d'entrée
-│   ├── package.json           # Configuration NPM
-│   ├── tailwind.config.js     # Configuration Tailwind
-│   └── postcss.config.js      # Configuration PostCSS
-└── README.md
 ```
