@@ -407,6 +407,9 @@ def api_boolean_search():
     } for doc_id, score in results]
     return jsonify(response)
 
+
 if __name__ == "__main__":
     app.run(port=1999, debug=True)
 CORS(app, resources={r"/*": {"origins": "*"}})
+
+
