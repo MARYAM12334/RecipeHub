@@ -49,7 +49,7 @@ venv\Scripts\activate  # Sur Windows
 ```bash
 pip install -r requirements.txt
 ```
-Note : si cette commande n'a pas marcher voici : 
+Note : Si cette commande ne fonctionne pas, vous pouvez installer les dépendances individuellement :
 ```bash 
 pip install Flask
 pip install Flask-Cors
